@@ -1,5 +1,9 @@
-body {
-    background-color: blue;
+/* Initial formatting code taken from the Code Institute Love Running Porject */
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
 }
 
 .question-container {
