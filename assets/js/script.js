@@ -28,9 +28,9 @@ function questionThree() {
 }
 
 function calculateRecommendation() {
-    if (score =  =< 14) {
+    if (score < 14) {
         recommendBookOne
-    } else if (score = >15) {
+    } else if (score > 15) {
         recommendBookTwo
     }
 }
