@@ -1,37 +1,48 @@
-let radio = document.getElementsByTagName('radio');
 
-let score;
+let radios = document.querySelectorAll('input[type=radio]');
+let score = 0;
+let result = document.getElementById('result');
+let recommendedBook, bookImg;
 
+const calculateBtn = document.getElementById('calculate');
 
-function questionOne() {
-   
-    let exotic = document.getElementById('exotic');
-    let mansion = document.getElementById('mansion');
-    let townhouse = document.getElementById('townhouse');
+calculateBtn.addEventListener('click', function(){
+    radios.forEach(radio => {
+       if (radio.checked) {
+        score += parseInt(radio.dataset.points);
+       }
+    });
 
-    if (exotic) {
-        score = score + 5;
-    } else if (mansion) {
-        score = score + 10;
-    } else if (townhouse); {
-        score = score + 1;
-    }  
+    result.innerText = score;
+    calculateRecommendation();
 
-}
+});
 
-function questionTwo() {
+// radios.forEach(radio => {
+//     radio.addEventListener('click', function(){
+//         console.log(this.dataset.points);
+//     });
+// });
 
-}
-
-function questionThree() {
-
-}
 
 function calculateRecommendation() {
-    if (score < 14) {
-        recommendBookOne
-    } else if (score > 15) {
-        recommendBookTwo
+    if (score <= 14) {
+        recommendedBook = "Towards Zero";
+        bookImg = "towards-zero.png";
+    } else if (score >= 15 && score <= 28) {
+        recommendedBook = "The Clocks";
+        bookImg = "the-clocks.png";
+    } else if (score >= 29 && score <= 42) {
+        recommendedBook = "Murder at the Vicarage";
+        bookImg = "the-clocks.png";
+    } else if (score >= 43 && score <= 56) {
+        recommendedBook = "And Then There Were None";
+        bookImg = "the-clocks.png";
+    } else if (score >= 57 && score <=70) {
+        recommendedBook = "Death on the Nile";
+        bookImg = "the-clocks.png";
     }
+    result.innerText = recommendedBook;
+    document.getElementById('book-image').src = "assets/images/" + bookImg;
 }
 

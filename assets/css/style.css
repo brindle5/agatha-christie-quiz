@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap');
+
+
 /* Initial formatting code taken from the Code Institute Love Running Porject */
 
 * {
@@ -5,6 +8,8 @@
     padding: 0;
     border: none;
 }
+
+
 
 .question-container {
     display: flex;
