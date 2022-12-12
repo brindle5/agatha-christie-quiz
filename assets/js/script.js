@@ -31,16 +31,16 @@ function calculateRecommendation() {
         bookImg = "towards-zero.jpg";
     } else if (score >= 15 && score <= 28) {
         recommendedBook = "The Clocks";
-        bookImg = "the-clocks.png";
+        bookImg = "the-clocks.jpg";
     } else if (score >= 29 && score <= 42) {
         recommendedBook = "Murder at the Vicarage";
-        bookImg = "the-clocks.png";
+        bookImg = "murder-at-the-vicarage.jpg";
     } else if (score >= 43 && score <= 56) {
         recommendedBook = "And Then There Were None";
-        bookImg = "the-clocks.png";
+        bookImg = "and-then-there-were-none.jpg";
     } else {
         recommendedBook = "Death on the Nile";
-        bookImg = "the-clocks.png";
+        bookImg = "death-on-the-nile.jpg";
     }
     result.innerText = recommendedBook;
     document.getElementById('book-image').src = "assets/images/" + bookImg;
