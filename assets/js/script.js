@@ -28,7 +28,7 @@ calculateBtn.addEventListener('click', function(){
 function calculateRecommendation() {
     if (score <= 14) {
         recommendedBook = "Towards Zero";
-        bookImg = "towards-zero.png";
+        bookImg = "towards-zero.jpg";
     } else if (score >= 15 && score <= 28) {
         recommendedBook = "The Clocks";
         bookImg = "the-clocks.png";
@@ -38,7 +38,7 @@ function calculateRecommendation() {
     } else if (score >= 43 && score <= 56) {
         recommendedBook = "And Then There Were None";
         bookImg = "the-clocks.png";
-    } else if (score >= 57 && score <=70) {
+    } else {
         recommendedBook = "Death on the Nile";
         bookImg = "the-clocks.png";
     }
