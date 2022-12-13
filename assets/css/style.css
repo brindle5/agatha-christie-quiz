@@ -10,13 +10,34 @@
 
 body {
     font-family: 'Cormorant Garamond', 'Noto Serif Georgian', serif;
-    background-color: #BD717D;
-    color: #4B081C;
-    font-size: 1.5rem;
-    
+    /* background-color: #BD717D; */
+    /* color: #4B081C; */
+    font-size: 1.5rem;    
+}
+
+header {
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+}
+
+header > h1, h2 {
+    padding-left: 3rem;
 }
 
 .question-container {
     display: flex;
     flex-direction: column;
+    /* text-align: center; */
+    /* justify-content: center;  */
+    padding-left: 3rem;
+}
+
+/* #calculate { 
+    border: .1rem solid black;
+    padding: .5rem;
+}  */
+
+footer {
+    background-color: blueviolet;
+    height: 5rem;
 }
