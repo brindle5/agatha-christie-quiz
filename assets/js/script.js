@@ -1,4 +1,28 @@
 
+// Modal code sourced from W3 Schools and Traversy Media
+
+
+let modal = document.getElementById('modal');
+let openBtn = document.getElementById('open');
+let closeBtn = document.getElementById('close');
+
+openBtn.onclick = function() {
+    modal.style.display= "block";
+}
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+
+// Code for book quiz:
+
 let radios = document.querySelectorAll('input[type=radio]');
 let score = 0;
 let result = document.getElementById('result');

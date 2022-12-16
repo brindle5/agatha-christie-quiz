@@ -6,12 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Christie's Quizzes</title>
+
+    <script src="https://kit.fontawesome.com/88b5170f86.js" crossorigin="anonymous"></script>
+
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
 </head>
 <body>
 
-    <header>
+    <!-- Header section  -->
 
+    <header>
     <img src="/assets/images/mysterious_island.jpg" alt="island shrouded in mist" width= "100%" >
 
     <h1>Christie's Quizes</h1>
@@ -19,10 +28,13 @@
     <h2>The internet's no.1 Agatha Christie quiz site</h2>
 
     </header>
-    <section>
+
+    <!-- Quiz section  -->
+
+<section>
     <div class="question-container">
         
-        <h2>Quiz of the Week: Which should your next book be?</h2>
+        <h2>Quiz of the Week: What should your next book be?</h2>
 
          <h3>1. Choose a setting:</h3>
 
@@ -106,16 +118,54 @@
     </div>
 
     <div class="results-container">
-        <h2>Results:</h2>  
+        <!-- <h2>Results:</h2>   -->
 
        <span id="result"></span>
-       <img src="" alt="" id="book-image">
-        
+       <img src="" alt="" id="book-image">        
+    </div>
+
+</section>  
+
+
+    <!-- Modal section  -->
+
+    <section>
+
+    <button id="open"><p>Sign up for our newsletter!</p></button>
+
+    <div id="modal">
+        <div id="modal-content">
+            <span id="close">&times;</span>
+            <!-- <p>Get more quizes in your inbox every weekend.</p> -->
+
+            <form action="https://formdump.codeinstitute.net/" method="post">
+
+                <label for="name"><strong>Name:</strong></label>
+                <input id="name" type="text" class="sign-up-text" name="name" required>
+
+                <br>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" class="sign-up-text" name="email" required>
+
+                <br>
+
+                <input type="submit" value="Submit" id="submit">
+
+
+            </form>
+
+        </div>
     </div>
 
     </section>
 
-    <footer></footer>
+    <!-- Footer section  -->
+
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i>  Christie's Quizzes 2022</p>
+
+    </footer>
 
 <script src="assets/js/script.js"></script>
 
