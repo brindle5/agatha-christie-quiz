@@ -21,7 +21,7 @@ header {
 
 header > h1 {
     padding-top: 3rem;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 #profile {
@@ -56,10 +56,11 @@ header > h1 {
     /* display: flex;
     flex-direction: row; */
     background-color: #DABFFF;
+    font-weight: 600;
     margin: 10% auto;
     padding: 2rem;
     border: 1px solid #0E0004;
-    width: 50%;
+    width: 30%;
 }
 
 #close {
@@ -118,6 +119,12 @@ header > h1 {
     background-color: #0E0004;
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 form > p {
     font-weight: 700;
     letter-spacing: 0.06rem;
@@ -142,7 +149,9 @@ form > p, label {
 
 .results-container {
     display: flex;
+    /* flex-direction: column; */
     justify-content: center;
+    padding: 2rem;
 }
 
 #calculate { 
