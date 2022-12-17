@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Christie's Quizzes</title>
+    <title>Christie Quizzes</title>
 
     <script src="https://kit.fontawesome.com/88b5170f86.js" crossorigin="anonymous"></script>
 
@@ -20,12 +20,56 @@
 
     <!-- Header section  -->
 
-    <header>
-    <img src="/assets/images/mysterious_island.jpg" alt="island shrouded in mist" width= "100%" >
+    <header class= "container">
 
-    <h1>Christie's Quizes</h1>
+    <img src="/assets/images/christie_photo.jpg" alt="photo of crime author agatha christie" id="profile">
 
-    <h2>The internet's no.1 Agatha Christie quiz site</h2>
+    <h1>Christie Quizzes</h1>
+    
+
+    </header>
+
+        
+
+    
+    <h2> Welcome to the internet's no.1 Agatha Christie fan quiz site!! </h2>
+   
+    <button id="open"><p>Sign up for our newsletter!</p></button>
+   
+
+
+ <!-- Modal section  -->
+
+ <section>
+
+    
+
+    <div id="modal">
+        <div id="modal-content">
+            <span id="close">&times;</span>
+            <!-- <p>Get more quizes in your inbox every weekend.</p> -->
+
+            <form action="https://formdump.codeinstitute.net/" method="post">
+
+                <label for="name"><strong>Name:</strong></label>
+                <input id="name" type="text" class="sign-up-text" name="name" required>
+
+                <br>
+
+                <label for="email"><strong>Email: </strong></label>
+                <input id="email" type="email" class="sign-up-text" name="email" required>
+
+                <br>
+
+                <input type="submit" value="Sign up" id="submit">
+
+            </form>
+
+        </div>
+    </div>
+
+    </section>
+
 
     </header>
 
@@ -56,12 +100,12 @@
         <input type="radio" value="weapon" name="trope" id="weapon" data-points="10">
 
         <label for="party">B) A party that ends in death.</label>
-        <input type="radio" value="party" name="trope" id="party" data-points="1">        
+        <input type="radio" value="party" name="trope" id="party" data-points="1" required>        
 
         <h3>3. And another one!</h3>
 
         <label for="neighbour">A) The nosy neighbour.</label>
-        <input type="radio" value="neighbour" name="another-trope" id="neighbour" data-points="10">
+        <input type="radio" value="neighbour" name="another-trope" id="neighbour" data-points="10" required>
 
         <label for ="documents">B) Missing secret documents.</label>
         <input type="radio" value="documents" name="another-trope" id="documents" data-points="1"> 
@@ -72,7 +116,7 @@
         <h3>4. Choose a character:</h3>
 
         <label for="heiress">A) The spoilt heiress.</label>
-        <input type="radio" value="heiress" name="character" id="heiress" data-points="10">
+        <input type="radio" value="heiress" name="character" id="heiress" data-points="10" required>
 
         <label for="murderer">B) A child murderer.</label>
         <input type="radio" value="murderer" name="character" id="murderer" data-points="1">
@@ -83,7 +127,7 @@
         <h3>5. Choose an overdone murder mystery cliche:</h3>
 
         <label for="detective">A) The alcoholic police detective.</label>
-        <input type="radio" value="detective" name="cliche" id="detective" data-points="5">
+        <input type="radio" value="detective" name="cliche" id="detective" data-points="5" required>
 
         <label for="lover">B) A jilted lover.</label>
         <input type="radio" value="lover" name="cliche" id="lover" data-points="10">
@@ -94,7 +138,7 @@
         <h3>6. Choose a tv detective:</h3>
 
         <label for="barnaby">A) Inspector John Barnaby (Midsomar Murders).</label>
-        <input type="radio" value="barnaby" name="tv-detective" id="barnaby" data-points="5">
+        <input type="radio" value="barnaby" name="tv-detective" id="barnaby" data-points="5" required>
 
         <label for ="morse">B) Inspector Morse (Morse).</label>
         <input type="radio" value="morse" name="tv-detective" id="morse" data-points="1">
@@ -105,7 +149,7 @@
         <h3>7. Choose an object: </h3>
 
         <label for="racket">A) Tennis Racket</label>
-        <input type="radio" value="racket" name="object" id="racket" data-points="1">
+        <input type="radio" value="racket" name="object" id="racket" data-points="1" required>
 
         <label for ="mirror">B) Mirror</label>
         <input type="radio" value="mirror" name="object" id="mirror" data-points="10">
@@ -127,43 +171,12 @@
 </section>  
 
 
-    <!-- Modal section  -->
-
-    <section>
-
-    <button id="open"><p>Sign up for our newsletter!</p></button>
-
-    <div id="modal">
-        <div id="modal-content">
-            <span id="close">&times;</span>
-            <!-- <p>Get more quizes in your inbox every weekend.</p> -->
-
-            <form action="https://formdump.codeinstitute.net/" method="post">
-
-                <label for="name"><strong>Name:</strong></label>
-                <input id="name" type="text" class="sign-up-text" name="name" required>
-
-                <br>
-
-                <label for="email"><strong>Email: </strong></label>
-                <input id="email" type="email" class="sign-up-text" name="email" required>
-
-                <br>
-
-                <input type="submit" value="Submit" id="submit">
-
-
-            </form>
-
-        </div>
-    </div>
-
-    </section>
+   
 
     <!-- Footer section  -->
 
     <footer>
-        <p><i class="fa-regular fa-copyright"></i>  Christie's Quizzes 2022</p>
+        <p><i class="fa-regular fa-copyright"></i>  Christie Quizzes 2022</p>
 
     </footer>
 
