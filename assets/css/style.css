@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Noto+Serif+Georgian:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500;600&display=swap');
 
 /* Initial formatting code taken from the Code Institute Love Running Porject */
 
@@ -8,10 +8,11 @@
     border: none;
 }
 
+
 body {
-    font-family: 'Cormorant Garamond', 'Noto Serif Georgian', serif;
+    font-family: 'Chivo Mono', 'Noto Serif Georgian', serif;
     background-color: #DABFFF;    
-    font-size: 1.5rem;    
+    font-size: 2rem;    
 }
 
 header {
@@ -25,14 +26,14 @@ header > h1 {
 }
 
 #profile {
-    padding: 3rem;
-    
+    padding: 3rem;    
 }
 
 .container {
     display: flex;
     flex-direction: row;
 }
+
 
 #modal {
     display: none;
@@ -51,6 +52,14 @@ header > h1 {
     font-weight: 400;
 
 } */
+
+#news-section {
+    letter-spacing: 0.05rem;
+    line-height: 2.5rem;
+    padding: 3rem;
+    font-size: 1.5rem;
+
+}
 
 #modal-content {
     /* display: flex;
@@ -145,6 +154,8 @@ form > p, label {
     /* text-align: center; */
     /* justify-content: center;  */
     padding-left: 3rem;
+    letter-spacing: 0.1rem;
+    line-height: 3rem;
 }
 
 .results-container {
