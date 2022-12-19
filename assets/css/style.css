@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
 
 /* Initial formatting code taken from the Code Institute Love Running Porject */
 
@@ -10,30 +10,22 @@
 
 
 body {
-    font-family: 'Chivo Mono', 'Noto Serif Georgian', serif;
-    background-color: #DABFFF;    
-    font-size: 2rem;    
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    background-color: white;
+    color: black;
+    font-size: 1.75rem;    
+    display: flex;
+    flex-direction: column;    
 }
 
 header {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     font-size: 2.5rem;
-}
-
-header > h1 {
-    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
     font-weight: 700;
 }
-
-#profile {
-    padding: 3rem;    
-}
-
-.container {
-    display: flex;
-    flex-direction: row;
-}
-
 
 #modal {
     display: none;
@@ -47,18 +39,10 @@ header > h1 {
     background-color: rgba(0,0,0,0.95);
 }
 
-/* header > h2 {
-    padding-left: 3rem;
-    font-weight: 400;
-
-} */
-
 #news-section {
-    letter-spacing: 0.05rem;
     line-height: 2.5rem;
     padding: 3rem;
     font-size: 1.5rem;
-
 }
 
 #modal-content {
@@ -129,8 +113,8 @@ header > h1 {
 }
 
 form {
-    display: flex;
-    flex-direction: column;
+    display: flex; 
+    flex-direction: column; 
     justify-content: center;
 }
 
@@ -149,18 +133,18 @@ form > p, label {
 /* Quiz Styling */
 
 .question-container {
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
     /* text-align: center; */
     /* justify-content: center;  */
     padding-left: 3rem;
-    letter-spacing: 0.1rem;
-    line-height: 3rem;
+    /* letter-spacing: 0.02rem;  */
+    line-height: 3.5rem;
 }
 
 .results-container {
-    display: flex;
-    /* flex-direction: column; */
+    display: flex; 
+    flex-direction: column; 
     justify-content: center;
     padding: 2rem;
 }
