@@ -8,11 +8,10 @@
     border: none;
 }
 
-
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    background-color: white;
+    background-color: grey;
     color: black;
     font-size: 1.75rem;    
     display: flex;
@@ -22,9 +21,10 @@ body {
 header {
     padding-bottom: 1rem;
     font-size: 2.5rem;
-    padding-left: 3rem;
-    padding-top: 2rem;
+    padding-left: 3rem; 
+    padding-top: 2rem; 
     font-weight: 700;
+    /* padding: 2rem; */
 }
 
 #modal {
@@ -79,15 +79,13 @@ header {
     letter-spacing: 0.06rem;
     color: black;
     border: black 0.1rem solid;
-    width: 25%;
-    
+    width: 25%;    
 }
 
 #open:hover {
     background-color: #0E0004;
     color: #DABFFF;
 }
-
 
 .sign-up-text {
     padding: 0.3rem;
@@ -133,24 +131,18 @@ form > p, label {
 /* Quiz Styling */
 
 .question-container {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* text-align: center; */
-    /* justify-content: center;  */
     padding-left: 3rem;
-    /* letter-spacing: 0.02rem;  */
     line-height: 3.5rem;
 }
 
 .results-container {
-    display: flex; 
-    flex-direction: column; 
     justify-content: center;
     padding: 2rem;
 }
 
 #calculate { 
     padding: 0.6rem;
+    /* padding-left: 3rem; */
     margin: 0.6rem 0;
     font-weight: 400;
     font-size: 1.5rem;
@@ -179,4 +171,47 @@ footer > i, footer > p {
     padding-top: 1rem;
     padding-left: 2rem;
     font-size: 2rem;
+    width: 100%;
+}
+
+/* Responsive design */
+
+/* Devices up to 480 pixels */
+
+@media screen and (max-width: 480px) {
+
+    #header {
+        padding: 1.5rem;
+    }
+
+    #news-section { 
+        padding: 1.5rem; 
+    }
+
+    #open {
+        width: 90%;
+    }
+
+    #modal-content {
+        width: 90%;        
+    }
+
+
+
+    .question-container {
+        padding: 1.5rem;
+        font-size: 1.5rem;
+    }
+
+    #calculate {
+        width: 90%;
+    }
+
+    footer > p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 481px) {
+
 }
