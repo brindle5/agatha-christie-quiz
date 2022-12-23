@@ -11,8 +11,8 @@
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    background-color: grey;
-    color: black;
+    background-color: turquoise;
+    color: black; 
     font-size: 1.75rem;    
     display: flex;
     flex-direction: column; 
@@ -44,11 +44,10 @@ header {
     line-height: 2.5rem;
     padding: 3rem;
     font-size: 1.5rem;
+    padding-bottom: 1.5rem;
 }
 
 #modal-content {
-    /* display: flex;
-    flex-direction: row; */
     background-color: #DABFFF;
     font-weight: 600;
     margin: 10% auto;
@@ -143,7 +142,6 @@ form > p, label {
 
 #calculate { 
     padding: 0.6rem;
-    /* padding-left: 3rem; */
     margin: 0.6rem 0;
     font-weight: 400;
     font-size: 1.5rem;
@@ -186,8 +184,8 @@ footer > i, footer > p {
 
 @media screen and (max-width: 480px) {
 
-    #header {
-        padding: 1.5rem;
+    header {
+        padding: 2rem 0.5rem 1rem 0.5rem; 
     }
 
     #news-section { 
@@ -199,7 +197,8 @@ footer > i, footer > p {
     }
 
     #modal-content {
-        width: 90%;        
+        width: 90%;   
+        padding: 1.5rem;    
     }
 
     .question-container {
