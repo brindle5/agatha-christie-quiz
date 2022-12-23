@@ -79,6 +79,12 @@ Alternatively, if using Gitpod, you can click below to create your own workspace
 
 ###	Media:
 
-The book cover images are from amazon.
+The book cover images have been taken from [harpercollins.com.au](https://www.harpercollins.com.au/), [waterstones.com](https://www.waterstones.com/) and [amazon.co.uk](https://www.amazon.co.uk/ref=nav_logo).
+
+* [and-then-there-were-none.jpg](https://i.harperapps.com/hcanz/covers/9780008123208/y648.jpg)
+* [death-on-the-nile.jpg](https://i.harperapps.com/hcanz/covers/9780008328931/y648.jpg)
+* [murder-at-the-vicarage.jpg](https://www.waterstones.com/book/the-murder-at-the-vicarage/agatha-christie//9780008255732)
+* [the-clocks.jpg](https://www.waterstones.com/book/the-clocks/agatha-christie/9780008129590?ebr=1)
+* [towards-zero.jpg](https://www.amazon.co.uk/Towards-Zero-Agatha-Christie/dp/0008196311)
 
 
