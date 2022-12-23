@@ -11,8 +11,8 @@
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
-    background-color: turquoise;
-    color: black; 
+    background-color: #034C3C;
+    color: #F7DBA7;
     font-size: 1.75rem;    
     display: flex;
     flex-direction: column; 
@@ -48,7 +48,8 @@ header {
 }
 
 #modal-content {
-    background-color: #DABFFF;
+    background-color: #F7DBA7;
+    color: black;
     font-weight: 600;
     margin: 10% auto;
     padding: 2rem;
@@ -75,7 +76,7 @@ header {
     margin: 0.6rem 0;
     font-weight: 400;
     font-size: 1.5rem;
-    background-color: #DABFFF;
+    background-color: #F7DBA7;
     letter-spacing: 0.06rem;
     color: black;
     border: black 0.1rem solid;
@@ -83,14 +84,14 @@ header {
 }
 
 #open:hover {
-    background-color: #0E0004;
-    color: #DABFFF;
+    background-color: #2C2A4A;
+    color: #F7DBA7;
 }
 
 .sign-up-text {
     padding: 0.3rem;
     margin: 0.6rem 0;
-    background-color: #DABFFF;
+    background-color: #F7DBA7;
     border: black 0.1rem solid;
 }
 
@@ -98,7 +99,7 @@ header {
     padding: 0.6rem;
     margin: 0.6rem 0;
     font-weight: 700;
-    background-color: #DABFFF;
+    background-color: #F7DBA7;
     letter-spacing: 0.06rem;
     color: black;
     border: black 0.1rem solid;
@@ -106,8 +107,8 @@ header {
 
 #submit:hover {
     font-weight: 700;
-    color: #DABFFF;
-    background-color: #0E0004;
+    color: #F7DBA7;
+    background-color: #2C2A4A;
 }
 
 form {
@@ -135,6 +136,10 @@ form > p, label {
     line-height: 3.5rem;
 }
 
+.question-container > label {
+    color: #F7DBA7;
+}
+
 .results-container {
     justify-content: center;
     padding: 2rem;
@@ -145,7 +150,7 @@ form > p, label {
     margin: 0.6rem 0;
     font-weight: 400;
     font-size: 1.5rem;
-    background-color: #DABFFF;
+    background-color: #F7DBA7;
     letter-spacing: 0.06rem;
     color: black;
     border: black 0.1rem solid;
@@ -154,7 +159,7 @@ form > p, label {
 
 #calculate:hover {
     background-color: #2C2A4A;
-    color: #DABFFF;
+    color: #F7DBA7;
 }
 
 #book-image {
@@ -171,7 +176,7 @@ footer {
 }
 
 footer > i, footer > p {
-    color: #DABFFF;
+    color: #F7DBA7;
     padding-top: 1rem;
     padding-left: 2rem;
     font-size: 2rem;
