@@ -20,6 +20,7 @@ body {
 }
 
 header {
+    color: #F7DBA7;
     padding-bottom: 1rem;
     font-size: 2.5rem;
     padding-left: 3rem; 
@@ -124,10 +125,8 @@ form > p {
 }
 
 form > p, label {
-    color: #0E0004;
+    color: black;
 }
-
-
 
 /* Quiz Styling */
 
@@ -191,6 +190,7 @@ footer > i, footer > p {
 
     header {
         padding: 2rem 0.5rem 1rem 0.5rem; 
+        font-size: 1.2em;
     }
 
     #news-section { 
@@ -250,23 +250,24 @@ footer > i, footer > p {
 
 /* Laptops and small computers from 769 pixels */
 
-/* @media screen and (min-width: 769px and max-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
     #open {
         width: 50%;
     }
 
-    #modal-content {
-        width: 50%;
+    .question-container {
+        padding-left: 2.5rem;
     }
 
-    .question-container {
-        padding-left: 1.5rem;
+    .question-container > h2 {
+        padding-left: 2rem;
     }
 
     #calculate {
         width: 50%;
     }
-} */
+}
 
 
 
