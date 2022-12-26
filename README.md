@@ -8,6 +8,10 @@ Christie Quizzes is a website which is aimed at fans of the crime writer Agatha 
 
 #### **Colour scheme**
 
+The colours 034C3C (Blue Green Colour Wheel), F7DBA7 (Navajo White) and 2C2A4A (Space Cadet) were chosen as they complemented the theme of the website but also worked well with regards to readability and accessibility.
+
+![Colour palette](documentation/colour_palette.png)
+
 #### **Typography- fonts and imagery**
 
 Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville).
@@ -18,15 +22,31 @@ Libre Baskerville 400 & 700 were selected as the font for the headings and body 
 
 ####  Header
 
+This part of the site lets visitors know what the site is about and who it's aimed at.
+
 #### News section
+
+This section features news and updates. Each item of news features a relevant icon: a film camera for an adaption, a speech bubble for a talk by an expert and a calendar for an event the visitor may be interested in.
 
 #### Sign up form
 
+The sign up feature enables to visitor to sign up for a newsletter.
+
 #### Quiz section
+
+In the 'Quiz of the week' section, the visitor can take a quiz which recommends a book for them to read.
 
 #### Results section
 
+The viewer receives a recommendation for a book based on their answers.
+
 #### Footer
+
+The footer features copyright information.
+
+### Features left to implement
+
+In the future, the site could expand to include a forum where vistors can open an account and take part in discussions with other members.
 
 ## **Testing**
 
