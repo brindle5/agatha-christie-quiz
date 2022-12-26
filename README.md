@@ -1,6 +1,16 @@
 # **Christie Quizzes**
 
+Christie Quizzes is a website which is aimed at fans of the crime writer Agatha Christie. On the site, visitors can take quizzes They can read news and updates regarding adaptions of her work, talks about her novels and meet ups for her fans.
+
+![Responsive design screenshot](documentation/responsive_screenshot.png)
+
 ## **UX**
+
+#### **Colour scheme**
+
+#### **Typography- fonts and imagery**
+
+Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville).
 
 ## **Features**
 
@@ -22,23 +32,23 @@
 
 Christie Quizzes has a number of responsive design features which means it can be viewed on a variety of screen sizes:
 
-Mobile phones (screens from 320px to 480px)
+* Mobile phones (screens from 320px to 480px)
 
-Tablet computers (screens from 481px to 768px)
+* Tablet computers (screens from 481px to 768px)
 
-Laptops (screens from 769px to 1024px)
+* Laptops (screens from 769px to 1024px)
 
-Desktop (screens from 1025px to 1200px)
+* Desktop (screens from 1025px to 1200px)
 
-* The site has been tested on different browsers: 
+The site has been tested on different browsers: 
 
-Chrome: 
+* Chrome: 
 
-Edge:
+* Edge:
 
-Firefox:
+* Firefox:
 
-Safari:
+* Safari:
 
 •	The form can only be submitted by imputting the required data: name and email address, and the submit button works.
 
