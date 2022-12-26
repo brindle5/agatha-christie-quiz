@@ -1,7 +1,6 @@
 
 // Modal code sourced from W3 Schools and Traversy Media
 
-
 let modal = document.getElementById('modal');
 let openBtn = document.getElementById('open');
 let closeBtn = document.getElementById('close');
@@ -19,7 +18,6 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 };
-
 
 // Code for book quiz:
 

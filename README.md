@@ -70,13 +70,17 @@ The site has been tested on different browsers:
 
 * Safari:
 
-•	The form can only be submitted by imputting the required data: name and email address, and the submit button works.
+•	The form can only be submitted by inputting the required data: name and email address, and the submit button works.
+
+![Form screenshot](documentation/form_input.png)
 
 ### Validator Testing
 
 * HTML: no errors were returned when passing through the W3C validator: 
 
 * CSS: no errors were returned when passing through the Jigsaw validator.
+
+* JavaScript: no errors were returned when passing through the Jshint validator.
 
 * Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools. 
 
@@ -93,7 +97,7 @@ The live link can be found [here](https://brindle5.github.io/agatha-christie-qui
 
 In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
 
-- `git clone https://github.com/brindle5/agatha-chritie-quiz.git`
+- `git clone https://github.com/brindle5/agatha-christie-quiz.git`
 
 Alternatively, if using Gitpod, you can click below to create your own workspace using this repository.
 
