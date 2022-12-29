@@ -123,9 +123,19 @@ form > p {
     padding-bottom: 0.6rem;
 }
 
+a {
+    color: #2C2A4A;
+}
+
 a:active {
     color: white;
 }
+
+#newsletter {
+    padding: 3rem;
+    font-size: ;
+}
+
 
 /* form > p, label {
     color: black;
