@@ -132,8 +132,8 @@ a:active {
 }
 
 #newsletter {
-    padding: 3rem;
-    font-size: ;
+    padding: 10rem 3rem;
+    font-size: 3rem;
 }
 
 
@@ -250,6 +250,19 @@ footer > i, footer > p {
         padding: 1.5rem;    
     }
 
+    #newsletter {
+        padding: 4rem 2rem;
+        font-size: 2rem;
+    }
+
+    #start-quiz {
+        width: 90%;
+    }
+
+    .next-button {
+        width: 50%;
+    }
+
     .question-container {
         padding: 1.5rem;
         font-size: 1.5rem;
@@ -282,6 +295,14 @@ footer > i, footer > p {
 
     .question-container {
         padding-left: 2rem;
+    }
+
+    #start-quiz {
+        width: 90%;
+    }
+
+    .next-button {
+        width: 50%;
     }
 
     #calculate {
