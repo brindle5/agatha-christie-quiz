@@ -38,6 +38,8 @@ let quizSection = document.getElementById('quiz-section');
 let newsSection = document.getElementById('news-section');
 let nextBtns = document.querySelectorAll('.next-button');
 
+let refresh = document.getElementsByClassName('.refresh');
+
 const calculateBtn = document.getElementById('calculate');
 
 // Add the data points of each option selected
@@ -107,4 +109,10 @@ nextBtns.forEach(btn => {
         nextDiv?.classList.remove('hide');
     })
  });
+
+refresh.addEventListener('click', function() {
+    newsSection.classList.remove('hide');
+    quizSection.classList.add('hide');
+    startBtn.classList.remove('hide');
+})
 
