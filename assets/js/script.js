@@ -1,3 +1,5 @@
+/* jshint esversion: 11 */
+
 
 // Modal code sourced from W3 Schools and Traversy Media
 
@@ -25,6 +27,10 @@ let radios = document.querySelectorAll('input[type=radio]');
 let score = 0;
 let result = document.getElementById('result');
 let recommendedBook, bookImg;
+let startBtn = document.getElementById('start-quiz');
+let quizSection = document.getElementById('quiz-section');
+let newsSection = document.getElementById('news-section');
+let nextBtns = document.querySelectorAll('.next-button');
 
 const calculateBtn = document.getElementById('calculate');
 
@@ -65,6 +71,26 @@ function calculateRecommendation() {
         bookImg = "death-on-the-nile.jpg";
     }
     result.innerText = recommendedBook;
+    document.getElementById('book-image').alt = recommendedBook;
     document.getElementById('book-image').src = "assets/images/" + bookImg;
 }
+
+startBtn.addEventListener('click', function() {
+    newsSection.classList.add('hide');
+    quizSection.classList.remove('hide');
+    startBtn.classList.add('hide');
+}
+)
+
+nextBtns.forEach(btn => {
+    btn.addEventListener('click', function() {
+        let nextQuestion = parseInt(btn.dataset.next); 
+        let currentQuestion = nextQuestion - 1; 
+        let currentDiv = document.querySelectorAll(`[data-question="${currentQuestion}"]`)[0];
+       
+        currentDiv?.classList.add('hide');
+        let nextDiv = document.querySelectorAll(`[data-question="${nextQuestion}"]`)[0];
+        nextDiv?.classList.remove('hide');
+    })
+ });
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,16 +15,17 @@
 
     <script src="https://kit.fontawesome.com/88b5170f86.js" crossorigin="anonymous"></script>
 
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">    
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico">
 
-    </head>
-    <body>
+</head>
+
+<body>
 
     <!-- Header section  -->
 
     <header>
 
-    <h1><strong>Christie Quizzes</strong></h1>    
+        <h1><strong>Christie Quizzes</strong></h1>
 
     </header>
 
@@ -32,39 +34,43 @@
 
         <br>
 
-        <p>In Agatha Christie news this week: 
+        <p>In Agatha Christie news this week:
 
             <br>
 
-            <i class="fa-regular fa-comment"></i>   Helen Byron, historian and tv presenter, will be giving a talk about 'The Murder of Roger Ackroyd' at the Cheltenham
+            <i class="fa-regular fa-comment"></i> Helen Byron, historian and tv presenter, will be giving a talk about
+            'The Murder of Roger Ackroyd' at the Cheltenham
             Festival next June. Tickets will go on sale in October.
 
             <br>
 
-            <i class="fa-regular fa-calendar-days"></i>   Our annual meet up 'Return to Solidier's Island' returns in July 2023. Since the last three were such a success, we've
+            <i class="fa-regular fa-calendar-days"></i> Our annual meet up 'Return to Solidier's Island' returns in July
+            2023. Since the last three were such a success, we've
             extended it over three days. Keep an eye on your inbox for further news and updates!
-            
+
             <br>
 
-            <i class="fa-solid fa-video"></i>  Black Hawk Productions have acquired the rights to film an adaption of 'The Mousetrap', the long running West End play. 
-            Filming will commence in March next year and Viola Davis & Jim Broadbent have their names attached to the project.           
+            <i class="fa-solid fa-video"></i> Black Hawk Productions have acquired the rights to film an adaption of
+            'The Mousetrap', the long running West End play.
+            Filming will commence in March next year and Viola Davis & Jim Broadbent have their names attached to the
+            project.
 
             <br>
         </p>
-   
-        <button id="open">Sign up for our newsletter!</button>  
 
-    </section> 
+        <button id="open">Sign up for our newsletter!</button>
 
- <!-- Modal section  -->
+    </section>
 
-    <div id="modal">
+    <!-- Modal section  -->
+
+    <aside id="modal">
         <div id="modal-content">
             <span id="close">&times;</span>
 
             <p>Get all the latest news and quizzes!</p>
 
-            <form action="https://formdump.codeinstitute.net/" method="post">
+            <form action="newsletter.html">
 
                 <label for="name"><strong>Name:</strong></label>
                 <input id="name" type="text" class="sign-up-text" name="name" required>
@@ -76,152 +82,200 @@
 
                 <br>
 
-                <input type="submit" value="Sign up" id="submit">                
+                <input type="submit" value="Sign up" id="submit">
 
             </form>
         </div>
-    </div>     
+    </aside>
 
     <!-- Quiz section  -->
 
-<section>
-    <div class="question-container">
-        
-        <h2>Quiz of the Week: </h2>
+    <div id="start-section">
 
-            <br>
-            
-           <h2> Which Agatha Christie book should you read next?</h2>
+    <button id="start-quiz">Start Quiz</button>
 
-            <br>
-
-         <h3>1. Choose a setting:</h3>
-
-        <label for="exotic">A) Somewhere exotic.</label>
-        <input type="radio" value="exotic" name="setting" id="exotic" data-points="10">
-
-        <br>
-
-        <label for="mansion">B) A crumbling mansion in the countryside.</label>
-        <input type="radio" value="mansion" name="setting" id="mansion" data-points="5">
-
-        <br>
-
-        <label for ="townhouse">C) An elegant townhouse in suburbia.</label>
-        <input type="radio" value="townhouse" name="setting" id="townhouse" data-points="1">
-
-        <h3>2. Choose a murder mystery trope you enjoy:</h3>        
-
-        <label for="secret">A) A dark family secret.</label>
-        <input type="radio" value="secret" name="trope" id="secret" data-points="5">
-
-        <br>
-
-        <label for="weapon">B) Missing murder weapon.</label>
-        <input type="radio" value="weapon" name="trope" id="weapon" data-points="10">
-
-        <br>
-
-        <label for="party">B) A party that ends in death.</label>
-        <input type="radio" value="party" name="trope" id="party" data-points="1">        
-
-        <h3>3. And another one!</h3>
-
-        <label for="neighbour">A) The nosy neighbour.</label>
-        <input type="radio" value="neighbour" name="another-trope" id="neighbour" data-points="10" >
-
-        <br>
-
-        <label for ="documents">B) Missing secret documents.</label>
-        <input type="radio" value="documents" name="another-trope" id="documents" data-points="1"> 
-
-        <br>
-
-        <label for="poisen">C) Poisen pen letters</label>
-        <input type="radio" value="poisen" name="another-trope" id="poisen" data-points="5">             
-
-        <h3>4. Choose a character:</h3>
-
-        <label for="heiress">A) The spoilt heiress.</label>
-        <input type="radio" value="heiress" name="character" id="heiress" data-points="10" >
-
-        <br>
-
-        <label for="murderer">B) A child murderer.</label>
-        <input type="radio" value="murderer" name="character" id="murderer" data-points="1">
-
-        <br>
-
-        <label for ="imposter">C) An imposter.</label>
-        <input type="radio" value="imposter" name="character" id="imposter" data-points="5">  
-
-        <h3>5. Choose an overdone murder mystery cliche:</h3>
-
-        <label for="detective">A) The alcoholic police detective.</label>
-        <input type="radio" value="detective" name="cliche" id="detective" data-points="5" >
-
-        <br>
-
-        <label for="lover">B) A jilted lover.</label>
-        <input type="radio" value="lover" name="cliche" id="lover" data-points="10">
-
-        <br>
-
-        <label for ="twin">C) The evil twin.</label>
-        <input type="radio" value="twin" name="cliche" id="twin" data-points="1">
-
-        <h3>6. Choose a tv detective:</h3>
-
-        <label for="barnaby">A) Inspector John Barnaby (Midsomar Murders).</label>
-        <input type="radio" value="barnaby" name="tv-detective" id="barnaby" data-points="5" >
-
-        <br>
-
-        <label for ="morse">B) Inspector Morse (Morse).</label>
-        <input type="radio" value="morse" name="tv-detective" id="morse" data-points="1">
-
-        <br>
-
-        <label for="luther">C) John Luther (Luther).</label>
-        <input type="radio" value="luther" name="tv-detective" id="luther" data-points="10">
-
-        <h3>7. Choose an object: </h3>
-
-        <label for="racket">A) Tennis Racket</label>
-        <input type="radio" value="racket" name="object" id="racket" data-points="1" >
-
-        <br>
-
-        <label for ="mirror">B) Mirror</label>
-        <input type="radio" value="mirror" name="object" id="mirror" data-points="10">
-
-        <br>
-
-        <label for="boat">C) Rowing boat</label>
-        <input type="radio" value="boat" name="object" id="boat" data-points="5"> 
-
-        <br>
-        
-        <button id="calculate">Calculate results</button>
-             
-    </div>    
-
-    <div class="results-container">
-       
-       <span id="result"></span>
-       <img src= "" alt= "" id="book-image">        
     </div>
 
-</section>     
+    <section id="quiz-section" class="hide">        
+
+        <div class="question-container">
+
+            <h2>Quiz of the Week: </h2>
+
+            <br>
+
+            <h2> Which Agatha Christie book should you read next?</h2>
+
+            <br>
+
+            <div data-question="1">
+
+                <h3>1. Choose a setting:</h3>
+
+                <label for="exotic">A) Somewhere exotic.</label>
+                <input type="radio" value="exotic" name="setting" id="exotic" data-points="10">
+
+                <br>
+
+                <label for="mansion">B) A crumbling mansion in the countryside.</label>
+                <input type="radio" value="mansion" name="setting" id="mansion" data-points="5">
+
+                <br>
+
+                <label for="townhouse">C) An elegant townhouse in suburbia.</label>
+                <input type="radio" value="townhouse" name="setting" id="townhouse" data-points="1">
+
+                <button data-next="2" class="next-button" >Next</button>
+
+            </div>
+
+            <div data-question="2" class="hide">
+
+                <h3>2. Choose a murder mystery trope you enjoy:</h3>
+
+                <label for="secret">A) A dark family secret.</label>
+                <input type="radio" value="secret" name="trope" id="secret" data-points="5">
+
+                <br>
+
+                <label for="weapon">B) Missing murder weapon.</label>
+                <input type="radio" value="weapon" name="trope" id="weapon" data-points="10">
+
+                <br>
+
+                <label for="party">B) A party that ends in death.</label>
+                <input type="radio" value="party" name="trope" id="party" data-points="1">
+
+                <button data-next="3" class="next-button">Next</button>
+
+            </div>
+
+            <div data-question="3" class="hide">
+
+                <h3>3. And another one!</h3>
+
+                <label for="neighbour">A) The nosy neighbour.</label>
+                <input type="radio" value="neighbour" name="another-trope" id="neighbour" data-points="10">
+
+                <br>
+
+                <label for="documents">B) Missing secret documents.</label>
+                <input type="radio" value="documents" name="another-trope" id="documents" data-points="1">
+
+                <br>
+
+                <label for="poisen">C) Poisen pen letters</label>
+                <input type="radio" value="poisen" name="another-trope" id="poisen" data-points="5">
+
+                <button data-next="4" class="next-button">Next</button>
+
+            </div>
+
+            <div data-question="4" class="hide">
+
+                <h3>4. Choose a character:</h3>
+
+                <label for="heiress">A) The spoilt heiress.</label>
+                <input type="radio" value="heiress" name="character" id="heiress" data-points="10">
+
+                <br>
+
+                <label for="murderer">B) A child murderer.</label>
+                <input type="radio" value="murderer" name="character" id="murderer" data-points="1">
+
+                <br>
+
+                <label for="imposter">C) An imposter.</label>
+                <input type="radio" value="imposter" name="character" id="imposter" data-points="5">
+
+                <button data-next="5" class="next-button">Next</button>
+
+            </div>
+
+            <div data-question="5" class="hide">
+
+                <h3>5. Choose an overdone murder mystery cliche:</h3>
+
+                <label for="detective">A) The alcoholic police detective.</label>
+                <input type="radio" value="detective" name="cliche" id="detective" data-points="5">
+
+                <br>
+
+                <label for="lover">B) A jilted lover.</label>
+                <input type="radio" value="lover" name="cliche" id="lover" data-points="10">
+
+                <br>
+
+                <label for="twin">C) The evil twin.</label>
+                <input type="radio" value="twin" name="cliche" id="twin" data-points="1">
+
+                <button data-next="6" class="next-button">Next</button>
+
+            </div>
+
+            <div data-question="6" class="hide">
+
+                <h3>6. Choose a tv detective:</h3>
+
+                <label for="barnaby">A) Inspector John Barnaby (Midsomar Murders).</label>
+                <input type="radio" value="barnaby" name="tv-detective" id="barnaby" data-points="5">
+
+                <br>
+
+                <label for="morse">B) Inspector Morse (Morse).</label>
+                <input type="radio" value="morse" name="tv-detective" id="morse" data-points="1">
+
+                <br>
+
+                <label for="luther">C) John Luther (Luther).</label>
+                <input type="radio" value="luther" name="tv-detective" id="luther" data-points="10">
+
+                <button data-next="7" class="next-button">Next</button>
+
+            </div>
+
+            <div data-question="7" class="hide">
+
+                <h3>7. Choose an object: </h3>
+
+                <label for="racket">A) Tennis Racket</label>
+                <input type="radio" value="racket" name="object" id="racket" data-points="1">
+
+                <br>
+
+                <label for="mirror">B) Mirror</label>
+                <input type="radio" value="mirror" name="object" id="mirror" data-points="10">
+
+                <br>
+
+                <label for="boat">C) Rowing boat</label>
+                <input type="radio" value="boat" name="object" id="boat" data-points="5">
+
+                <button data-next="8" class="next-button">Next</button>
+
+            </div>
+
+            <button id="calculate" class="hide" data-question="8">Calculate results</button>
+
+        </div>
+
+        <div class="results-container">
+
+            <span id="result"></span>
+            <img src="" alt="" id="book-image">
+        </div>
+
+    </section>
 
     <!-- Footer section  -->
 
     <footer>
-        <p><i class="fa-regular fa-copyright"></i>  Christie Quizzes 2023</p>
+        <p><i class="fa-regular fa-copyright"></i> Christie Quizzes 2023</p>
 
     </footer>
 
-<script src="assets/js/script.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
+
 </html>

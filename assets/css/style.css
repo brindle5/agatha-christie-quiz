@@ -73,7 +73,7 @@ header {
 
 /* Sign up form content  */
 
-#open{
+button{
     padding: 0.6rem;
     margin: 0.6rem 0;
     font-weight: 400;
@@ -85,7 +85,7 @@ header {
     width: 25%;    
 }
 
-#open:hover {
+button:hover {
     background-color: #2C2A4A;
     color: #F7DBA7;
 }
@@ -125,19 +125,51 @@ form > p {
     padding-bottom: 0.6rem;
 }
 
-form > p, label {
+/* form > p, label {
     color: black;
-}
+} */
 
 /* Quiz Styling */
+
+#start-section {
+    padding-left: 3rem;
+    line-height: 3.5rem;
+}
+
+#start-quiz{
+    
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: #F7DBA7;
+    letter-spacing: 0.06rem;
+    color: black;
+    border: black 0.1rem solid;
+    width: 25%;    
+}
 
 .question-container {
     padding-left: 3rem;
     line-height: 3.5rem;
 }
 
-.question-container > label {
+.question-container > div > label {
     color: #F7DBA7;
+}
+
+#start-quiz{
+    padding-left: 3rem;
+    line-height: 3.5rem;
+    padding: 0.6rem;
+    margin: 0.6rem 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    background-color: #F7DBA7;
+    letter-spacing: 0.06rem;
+    color: black;
+    border: black 0.1rem solid;
+    width: 25%;    
 }
 
 .results-container {
@@ -268,6 +300,10 @@ footer > i, footer > p {
     #calculate {
         width: 50%;
     }
+}
+
+.hide {
+    display: none;
 }
 
 
