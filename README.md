@@ -72,13 +72,17 @@ The site has been tested on different browsers:
 
 •	The form can only be submitted by inputting the required data: name and email address, and the submit button works.
 
-![Form screenshot](documentation/form_input.png)
+
 
 ### Validator Testing
 
 * HTML: no errors were returned when passing through the W3C validator: 
 
+[HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrindle5.github.io%2Fagatha-christie-quiz%2F)
+
 * CSS: no errors were returned when passing through the Jigsaw validator.
+
+[CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrindle5.github.io%2Fagatha-christie-quiz)
 
 * JavaScript: no errors were returned when passing through the Jshint validator.
 

@@ -94,7 +94,7 @@ startBtn.addEventListener('click', function() {
     quizSection.classList.remove('hide');
     startBtn.classList.add('hide');
 }
-)
+);
 
 // Show the next question and hide the previous one
 
@@ -107,12 +107,14 @@ nextBtns.forEach(btn => {
         currentDiv?.classList.add('hide');
         let nextDiv = document.querySelectorAll(`[data-question="${nextQuestion}"]`)[0];
         nextDiv?.classList.remove('hide');
-    })
+    });
  });
+
+//  Show the newssection and hide the quiz
 
 refresh.addEventListener('click', function() {
     newsSection.classList.remove('hide');
     quizSection.classList.add('hide');
     startBtn.classList.remove('hide');
-})
+});
 
