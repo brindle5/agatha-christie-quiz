@@ -7,13 +7,19 @@ let modal = document.getElementById('modal');
 let openBtn = document.getElementById('open');
 let closeBtn = document.getElementById('close');
 
+// open the newsletter signup form
+
 openBtn.onclick = function() {
     modal.style.display= "block";
 };
 
+// Close the newsletter signup form
+
 closeBtn.onclick = function() {
     modal.style.display = "none";
 };
+
+// Close the signup form if the user clicks on the dark area
 
 window.onclick = function(event) {
     if (event.target == modal) {
@@ -34,6 +40,8 @@ let nextBtns = document.querySelectorAll('.next-button');
 
 const calculateBtn = document.getElementById('calculate');
 
+// Add the data points of each option selected
+
 calculateBtn.addEventListener('click', function(){
     radios.forEach(radio => {
        if (radio.checked) {
@@ -52,6 +60,8 @@ calculateBtn.addEventListener('click', function(){
 //     });
 // });
 
+
+// Recommend a book based on the points score
 
 function calculateRecommendation() {
     if (score <= 14) {
@@ -75,12 +85,16 @@ function calculateRecommendation() {
     document.getElementById('book-image').src = "assets/images/" + bookImg;
 }
 
+// Hide the newssection when the user starts the quiz
+
 startBtn.addEventListener('click', function() {
     newsSection.classList.add('hide');
     quizSection.classList.remove('hide');
     startBtn.classList.add('hide');
 }
 )
+
+// Show the next question and hide the previous one
 
 nextBtns.forEach(btn => {
     btn.addEventListener('click', function() {

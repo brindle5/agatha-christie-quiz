@@ -22,12 +22,10 @@ body {
 /* Header styling */
 
 header {
-    color: #F7DBA7;
-    padding-bottom: 1rem;
-    font-size: 2.5rem;
-    padding-left: 3rem; 
-    padding-top: 2rem; 
-    font-weight: 700;    
+    color: #F7DBA7;    
+    font-size: 2.5rem;    
+    font-weight: 700; 
+    padding: 1rem 3rem;   
 }
 
 /* News section and modal styling */
@@ -45,10 +43,9 @@ header {
 }
 
 #news-section {
-    line-height: 2.5rem;
-    padding: 3rem;
+    line-height: 2.5rem;    
     font-size: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding: 1rem 3rem;
 }
 
 #modal-content {
@@ -70,6 +67,7 @@ header {
 #close:hover, #close:focus {
     cursor: pointer;
 }
+
 
 /* Sign up form content  */
 
@@ -125,6 +123,10 @@ form > p {
     padding-bottom: 0.6rem;
 }
 
+a:active {
+    color: white;
+}
+
 /* form > p, label {
     color: black;
 } */
@@ -174,7 +176,7 @@ form > p {
 
 .results-container {
     justify-content: center;
-    padding: 2rem;
+    padding: 1rem;
 }
 
 #calculate { 
