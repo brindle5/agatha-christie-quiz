@@ -24,25 +24,51 @@ Libre Baskerville 400 & 700 were selected as the font for the headings and body 
 
 This part of the site lets visitors know what the site is about and who it's aimed at.
 
+![Header screenshot](documentation/header_section.png)
+
 #### News section
 
 This section features news and updates. Each item of news features a relevant icon: a film camera for an adaption, a speech bubble for a talk by an expert and a calendar for an event the visitor may be interested in.
+
+![News section screenshot](documentation/news_section.png)
 
 #### Sign up form
 
 The sign up feature enables to visitor to sign up for a newsletter.
 
+![Sign up form screenshot](documentation/sign_up_form.png)
+
+#### Newsletter confirmation
+
+This page confirms to the user that the site has received their data and they've been added to the mailing list.
+
+![Confirmation of sign up screenshot](documentation/newsletter_confirmation.png)
+
 #### Quiz section
 
-In the 'Quiz of the week' section, the visitor can take a quiz which recommends a book for them to read.
+In the 'Quiz of the week' section, the visitor can take a quiz which recommends a book for them to read. The quiz is hidden until the quiz taker clicks on the 'Start Quiz' button. 
+
+![Start quiz button screenshot](documentation/start_quiz_section.png)
+
+The quizzer is then taken through seven multiple choice questions.
+
+![Quiz screenshot](documentation/quiz_section.png)
 
 #### Results section
 
+After the final question, the quiz taker is presented with the 'Calculate Results'. 
+
+![Calculate results button screenshot](documentation/calculate_results.png))
+
 The viewer receives a recommendation for a book based on their answers.
+
+![Recommendation screenshot](documentation/recommendation.png)
 
 #### Footer
 
 The footer features copyright information.
+
+![Footer screenshot](documentation/footer.png)
 
 ### Features left to implement
 
@@ -52,21 +78,31 @@ In the future, the site could expand to include a forum where vistors can open a
 
 Christie Quizzes has a number of responsive design features which means it can be viewed on a variety of screen sizes:
 
-* Mobile phones (screens from 320px to 480px)
+* Mobile phones (screens up to 480px)
+
+![Mobile screenshot](documentation/mobile_screenshot.jpg)
 
 * Tablet computers (screens from 481px to 768px)
 
 * Laptops (screens from 769px to 1024px)
 
+![Laptop screenshot](documentation/laptop_screenshot.png)
+
 * Desktop (screens from 1025px to 1200px)
 
 The site has been tested on different browsers: 
 
-* Chrome: 
+* Chrome- no changes.
 
-* Edge:
+![Chrome screenshot](documentation/chrome_screenshot.png)
 
-* Firefox:
+* Edge- no changes.
+
+![Edge screenshot](documentation/edge_screenshot.png)
+
+* Firefox- no changes
+
+![Firefox screenshot](documentation/firefox_screenshot.png)
 
 * Safari:
 

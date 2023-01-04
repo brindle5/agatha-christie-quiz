@@ -123,23 +123,15 @@ form > p {
     padding-bottom: 0.6rem;
 }
 
-a {
-    color: #2C2A4A;
-}
-
-a:active {
-    color: white;
+section > p > a, section > p > a:visited {
+    color: #F7DBA7;
+    
 }
 
 #newsletter {
     padding: 10rem 3rem;
     font-size: 3rem;
 }
-
-
-/* form > p, label {
-    color: black;
-} */
 
 /* Quiz Styling */
 
