@@ -1,6 +1,5 @@
 /* jshint esversion: 11 */
 
-
 // Modal code sourced from W3 Schools and Traversy Media
 
 let modal = document.getElementById('modal');
@@ -37,7 +36,6 @@ let startBtn = document.getElementById('start-quiz');
 let quizSection = document.getElementById('quiz-section');
 let newsSection = document.getElementById('news-section');
 let nextBtns = document.querySelectorAll('.next-button');
-
 let refresh = document.getElementsByClassName('.refresh');
 
 const calculateBtn = document.getElementById('calculate');
@@ -80,6 +78,7 @@ function calculateRecommendation() {
     document.getElementById('book-image').src = "assets/images/" + bookImg;
 }
 
+
 // Hide the newssection when the user starts the quiz
 
 startBtn.addEventListener('click', function() {
@@ -103,11 +102,10 @@ nextBtns.forEach(btn => {
     });
  });
 
-//  Show the newssection and hide the quiz
+ //  Show the newssection and hide the quiz
 
 refresh.addEventListener('click', function() {
     newsSection.classList.remove('hide');
     quizSection.classList.add('hide');
     startBtn.classList.remove('hide');
 });
-

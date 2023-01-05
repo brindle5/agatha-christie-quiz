@@ -20,31 +20,31 @@ Libre Baskerville 400 & 700 were selected as the font for the headings and body 
 
 ### Existing features
 
-####  Header
+####  **Header**
 
 This part of the site lets visitors know what the site is about and who it's aimed at.
 
 ![Header screenshot](documentation/header_section.png)
 
-#### News section
+#### **News section**
 
 This section features news and updates. Each item of news features a relevant icon: a film camera for an adaption, a speech bubble for a talk by an expert and a calendar for an event the visitor may be interested in.
 
 ![News section screenshot](documentation/news_section.png)
 
-#### Sign up form
+#### **Sign up form**
 
 The sign up feature enables to visitor to sign up for a newsletter.
 
 ![Sign up form screenshot](documentation/sign_up_form.png)
 
-#### Newsletter confirmation
+#### **Newsletter confirmation**
 
 This page confirms to the user that the site has received their data and they've been added to the mailing list.
 
 ![Confirmation of sign up screenshot](documentation/newsletter_confirmation.png)
 
-#### Quiz section
+#### **Quiz section**
 
 In the 'Quiz of the week' section, the visitor can take a quiz which recommends a book for them to read. The quiz is hidden until the quiz taker clicks on the 'Start Quiz' button. 
 
@@ -54,7 +54,7 @@ The quizzer is then taken through seven multiple choice questions.
 
 ![Quiz screenshot](documentation/quiz_section.png)
 
-#### Results section
+#### **Results section**
 
 After the final question, the quiz taker is presented with the 'Calculate Results'. 
 
@@ -64,13 +64,13 @@ The viewer receives a recommendation for a book based on their answers.
 
 ![Recommendation screenshot](documentation/recommendation.png)
 
-#### Footer
+#### **Footer**
 
 The footer features copyright information.
 
 ![Footer screenshot](documentation/footer.png)
 
-### Features left to implement
+### **Features left to implement**
 
 In the future, the site could expand to include a forum where vistors can open an account and take part in discussions with other members.
 
@@ -112,20 +112,32 @@ The site has been tested on different browsers:
 
 ### Validator Testing
 
-* HTML: no errors were returned when passing through the W3C validator: 
+* HTML: there are two errors raised regarding an <img> attribute missing alt and src attributes, but the images are sourced by the Javascript code which also provides the alt attribute. 
 
 [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrindle5.github.io%2Fagatha-christie-quiz%2F)
+
+
 
 * CSS: no errors were returned when passing through the Jigsaw validator.
 
 [CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fbrindle5.github.io%2Fagatha-christie-quiz)
 
+![CSS screenshot](documentation/css_validation.png)
+
 * JavaScript: no errors were returned when passing through the Jshint validator.
+
+![JavaScript validator screenshot (1/2)](documentation/js_validation_1.png)
+
+![JavaScript validator screenshot (2/2)](documentation/js_validation_2.png)
 
 * Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools. 
 
 ![Lighthouse report screenshot](documentation/lighthouse_report.png)
 
+### **Unfixed bugs**
+
+One of the shortcomings of the quiz is that by using radio buttons within HTML, it enables the quiz taker to click through the options and receive a recommendation. On the other hand, this empowers the user to decide which, if any, of the seven questions they wish to answer and enables them to skip ones they don’t.
+ 
 ## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
