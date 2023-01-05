@@ -124,6 +124,8 @@ The site has been tested on different browsers:
 
 * Accessibility: the colours and fonts are easy to read, as assessed by lighthouse in Devtools. 
 
+![Lighthouse report screenshot](documentation/lighthouse_report.png)
+
 ## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 

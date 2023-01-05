@@ -56,13 +56,6 @@ calculateBtn.addEventListener('click', function(){
 
 });
 
-// radios.forEach(radio => {
-//     radio.addEventListener('click', function(){
-//         console.log(this.dataset.points);
-//     });
-// });
-
-
 // Recommend a book based on the points score
 
 function calculateRecommendation() {
