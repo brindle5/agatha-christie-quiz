@@ -8,6 +8,14 @@
     border: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    height: 100%; 
+}
+
 body {
     font-family: 'Libre Baskerville', serif;
     font-weight: 400;
@@ -17,6 +25,11 @@ body {
     display: flex;
     flex-direction: column; 
     overflow-x: hidden;   
+}
+
+body > footer {
+    position: sticky;
+    top: 100vh;
 }
 
 /* Header styling */
@@ -71,7 +84,7 @@ header {
 
 /* Sign up form content  */
 
-button{
+button, a#calculate{
     padding: 0.6rem;
     margin: 0.6rem 0;
     font-weight: 400;
@@ -80,7 +93,8 @@ button{
     letter-spacing: 0.06rem;
     color: black;
     border: black 0.1rem solid;
-    width: 25%;    
+    width: 25%;  
+    text-decoration: none; 
 }
 
 button:hover {
@@ -179,6 +193,7 @@ section > p > a, section > p > a:visited {
 .results-container {
     justify-content: center;
     padding: 1rem;
+    text-align: center;
 }
 
 #calculate { 
@@ -200,7 +215,6 @@ section > p > a, section > p > a:visited {
 
 #book-image {
     height: 25rem;
-    padding-left: 3rem;
 }
 
 /* Footer styling */

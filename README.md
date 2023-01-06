@@ -90,6 +90,8 @@ Christie Quizzes has a number of responsive design features which means it can b
 
 * Desktop (screens from 1025px to 1200px)
 
+![Desktop screenshot](documentation/desktop_screenshot.png)
+
 The site has been tested on different browsers: 
 
 * Chrome- no changes.

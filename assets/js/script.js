@@ -36,7 +36,7 @@ let startBtn = document.getElementById('start-quiz');
 let quizSection = document.getElementById('quiz-section');
 let newsSection = document.getElementById('news-section');
 let nextBtns = document.querySelectorAll('.next-button');
-let refresh = document.getElementsByClassName('.refresh');
+let refresh = document.querySelectorAll('.refresh');
 
 const calculateBtn = document.getElementById('calculate');
 
@@ -57,6 +57,7 @@ calculateBtn.addEventListener('click', function(){
 // Recommend a book based on the points score
 
 function calculateRecommendation() {
+    
     if (score <= 14) {
         recommendedBook = "Towards Zero";
         bookImg = "towards-zero.jpg";
@@ -71,11 +72,13 @@ function calculateRecommendation() {
         bookImg = "and-then-there-were-none.jpg";
     } else {
         recommendedBook = "Death on the Nile";
-        bookImg = "death-on-the-nile.jpg";
+        bookImg = "death-on-the-nile.jpg";        
     }
+    
     result.innerText = recommendedBook;
     document.getElementById('book-image').alt = recommendedBook;
     document.getElementById('book-image').src = "assets/images/" + bookImg;
+    document.getElementById('book-image').classList.remove('hide');
 }
 
 
@@ -99,13 +102,31 @@ nextBtns.forEach(btn => {
         currentDiv?.classList.add('hide');
         let nextDiv = document.querySelectorAll(`[data-question="${nextQuestion}"]`)[0];
         nextDiv?.classList.remove('hide');
-    });
+        btn.classList.add('hide');
+    });    
  });
+
+// Loop radio buttons
+
+let inputs = document.querySelectorAll('input[type=radio]');
+inputs.forEach(input => {
+    input.addEventListener('click', function(){
+        nextBtns.forEach(btn => {
+            btn.classList.remove('hide');
+            btn.addEventListener('click', function(){
+                btn.classList.add('hide');
+            });
+         });       
+    });
+})
 
  //  Show the newssection and hide the quiz
 
-refresh.addEventListener('click', function() {
-    newsSection.classList.remove('hide');
-    quizSection.classList.add('hide');
-    startBtn.classList.remove('hide');
-});
+ refresh.forEach(btn => {
+    btn.addEventListener('click', function() {
+        newsSection.classList.remove('hide');
+        quizSection.classList.add('hide');
+        startBtn.classList.remove('hide');
+    });
+
+ });
