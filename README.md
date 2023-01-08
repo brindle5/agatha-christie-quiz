@@ -1,6 +1,6 @@
 # **Christie Quizzes**
 
-Christie Quizzes is a website which is aimed at fans of the crime writer Agatha Christie. On the site, visitors can take quizzes They can read news and updates regarding adaptions of her work, talks about her novels and meet ups for her fans.
+Christie Quizzes is a website aimed at fans of the crime writer Agatha Christie. On this site, visitors can take quizzes related to her and her novels. They can also read news and updates regarding adaptions of her work, scheduled talks by experts, and meet ups for fans.
 
 ![Responsive design screenshot](documentation/responsive_screenshot.png)
 
@@ -14,7 +14,7 @@ The colours 034C3C (Blue Green Colour Wheel), F7DBA7 (Navajo White) and 2C2A4A (
 
 #### **Typography- fonts and imagery**
 
-Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville). 
+Libre Baskerville 400 & 700 were selected as the font for the headings and body. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville). 
 
 Arial is used for the button elements. 
 
@@ -118,11 +118,11 @@ The site has been tested on different browsers:
 
 ### Validator Testing
 
-* HTML: there are two errors raised regarding an <img> attribute missing alt and src attributes, but the images are sourced by the Javascript code which also provides the alt attribute. 
+* HTML: no errors were returned when passing through the Nu Html checker.
 
 [HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fbrindle5.github.io%2Fagatha-christie-quiz%2F)
 
-
+![HTML screenshot](documentation/html_validation.png)
 
 * CSS: no errors were returned when passing through the Jigsaw validator.
 
@@ -177,4 +177,5 @@ The book cover images have been taken from [harpercollins.com.au](https://www.ha
 * [the-clocks.jpg](https://www.waterstones.com/book/the-clocks/agatha-christie/9780008129590?ebr=1)
 * [towards-zero.jpg](https://www.amazon.co.uk/Towards-Zero-Agatha-Christie/dp/0008196311)
 
+I'd also like to thank my mentor Tim Nelson, the tutors and my fellow students on Slack for their invaluable support during this project.
 
