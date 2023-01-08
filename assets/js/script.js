@@ -1,4 +1,4 @@
-/* jshint esversion: 11 */
+/* jshint esversion: 11*/
 
 // Modal code sourced from W3 Schools and Traversy Media
 
@@ -37,7 +37,6 @@ let quizSection = document.getElementById('quiz-section');
 let newsSection = document.getElementById('news-section');
 let nextBtns = document.querySelectorAll('.next-button');
 let refresh = document.querySelectorAll('.refresh');
-
 let finish = document.getElementById('finish');
 
 const calculateBtn = document.getElementById('calculate');
@@ -85,7 +84,6 @@ function calculateRecommendation() {
     document.querySelector('#finish').classList.remove('hide');
 }
 
-
 // Hide the newssection when the user starts the quiz
 
 startBtn.addEventListener('click', function() {
@@ -102,7 +100,7 @@ let current = 0;
 nextBtns.forEach(btn => {
     btn.addEventListener('click', function() {
 
-        current += 1
+        current += 1;
 
         if (current !== 7) {
             document.querySelectorAll('.next-button')[current].classList.add('hide');
@@ -126,7 +124,7 @@ inputs.forEach(input => {
     input.addEventListener('click', function(){
         document.querySelectorAll('.next-button')[current].classList.remove('hide');                     
     });
-})
+});
 
  //  Show the newssection and hide the quiz
 
@@ -142,7 +140,8 @@ inputs.forEach(input => {
 //  Returns the user to the main page
 
 finish.addEventListener('click', function() {
-    window.location.reload()
-})
+    window.location.reload();
+}
+)
     
 

@@ -97,11 +97,6 @@ button, a#calculate{
     text-decoration: none;     
 }
 
-a#calculate {
-    padding-left: 3rem;
-    line-height: 3.5rem;
-}
-
 button:hover {
     background-color: #2C2A4A;
     color: #F7DBA7;
@@ -211,6 +206,7 @@ section > p > a, section > p > a:visited {
     color: black;
     border: black 0.1rem solid;
     width: 15%;
+    font-family: 'Arial';
 }  
 
 #calculate:hover {

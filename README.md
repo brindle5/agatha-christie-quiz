@@ -14,7 +14,9 @@ The colours 034C3C (Blue Green Colour Wheel), F7DBA7 (Navajo White) and 2C2A4A (
 
 #### **Typography- fonts and imagery**
 
-Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville).
+Libre Baskerville 400 & 700 were selected as the font for the headings and body of the website due to its Gothic style. It is from [Google Fonts](https://fonts.google.com/specimen/Libre+Baskerville). 
+
+Arial is used for the button elements. 
 
 ## **Features**
 
@@ -112,9 +114,7 @@ The site has been tested on different browsers:
 
 ![Safari screenshot](documentation/safari_screenshot.png)
 
-
 •	The form can only be submitted by inputting the required data: name and email address, and the submit button works.
-
 
 ### Validator Testing
 
@@ -140,10 +140,6 @@ The site has been tested on different browsers:
 
 ![Lighthouse report screenshot](documentation/lighthouse_report.png)
 
-### **Unfixed bugs**
-
-One of the shortcomings of the quiz is that by using radio buttons within HTML, it enables the quiz taker to click through the options and receive a recommendation. On the other hand, this empowers the user to decide which, if any, of the seven questions they wish to answer and enables them to skip ones they don’t.
- 
 ## **Deployment**
 
 The site was deployed to GitHub pages. The steps to deploy are as follows: 
