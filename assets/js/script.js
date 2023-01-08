@@ -38,6 +38,8 @@ let newsSection = document.getElementById('news-section');
 let nextBtns = document.querySelectorAll('.next-button');
 let refresh = document.querySelectorAll('.refresh');
 
+let finish = document.getElementById('finish');
+
 const calculateBtn = document.getElementById('calculate');
 
 // Add the data points of each option selected
@@ -79,6 +81,8 @@ function calculateRecommendation() {
     document.getElementById('book-image').alt = recommendedBook;
     document.getElementById('book-image').src = "assets/images/" + bookImg;
     document.getElementById('book-image').classList.remove('hide');
+
+    document.querySelector('#finish').classList.remove('hide');
 }
 
 
@@ -91,10 +95,19 @@ startBtn.addEventListener('click', function() {
 }
 );
 
+let current = 0;
+
 // Show the next question and hide the previous one
 
 nextBtns.forEach(btn => {
     btn.addEventListener('click', function() {
+
+        current += 1
+
+        if (current !== 7) {
+            document.querySelectorAll('.next-button')[current].classList.add('hide');
+        }
+
         let nextQuestion = parseInt(btn.dataset.next); 
         let currentQuestion = nextQuestion - 1; 
         let currentDiv = document.querySelectorAll(`[data-question="${currentQuestion}"]`)[0];
@@ -111,12 +124,7 @@ nextBtns.forEach(btn => {
 let inputs = document.querySelectorAll('input[type=radio]');
 inputs.forEach(input => {
     input.addEventListener('click', function(){
-        nextBtns.forEach(btn => {
-            btn.classList.remove('hide');
-            btn.addEventListener('click', function(){
-                btn.classList.add('hide');
-            });
-         });       
+        document.querySelectorAll('.next-button')[current].classList.remove('hide');                     
     });
 })
 
@@ -130,3 +138,11 @@ inputs.forEach(input => {
     });
 
  });
+
+//  Returns the user to the main page
+
+finish.addEventListener('click', function() {
+    window.location.reload()
+})
+    
+

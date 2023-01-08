@@ -94,7 +94,12 @@ button, a#calculate{
     color: black;
     border: black 0.1rem solid;
     width: 25%;  
-    text-decoration: none; 
+    text-decoration: none;     
+}
+
+a#calculate {
+    padding-left: 3rem;
+    line-height: 3.5rem;
 }
 
 button:hover {

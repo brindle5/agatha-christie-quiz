@@ -84,6 +84,8 @@ Christie Quizzes has a number of responsive design features which means it can b
 
 * Tablet computers (screens from 481px to 768px)
 
+![Tablet screenshots](documentation/tablet_screenshot.png)
+
 * Laptops (screens from 769px to 1024px)
 
 ![Laptop screenshot](documentation/laptop_screenshot.png)
@@ -106,10 +108,12 @@ The site has been tested on different browsers:
 
 ![Firefox screenshot](documentation/firefox_screenshot.png)
 
-* Safari:
+* Safari- no changes
+
+![Safari screenshot](documentation/safari_screenshot.png)
+
 
 •	The form can only be submitted by inputting the required data: name and email address, and the submit button works.
-
 
 
 ### Validator Testing
